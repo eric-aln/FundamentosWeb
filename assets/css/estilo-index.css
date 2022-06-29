@@ -1,0 +1,53 @@
+/* Estilos da página index.hmtl */
+.p1 {
+    color: #910085;
+    font-size: 20px; 
+    text-align: center;
+}
+h1 {
+    color: blueviolet;
+}
+.center {
+    text-align: center;
+    color: violet;
+
+}
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content:center;
+    align-items: flex-start;
+    
+}
+#menu li {
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color:black
+}
+#menu li a:hover{
+    color: blueviolet;
+}
+.p-00 {
+    padding: 30px;
+}
+.br-50 {
+    border-radius: 50%;
+}
+.tm-social {
+    width: 30px;
+    height: 30px;
+
+}
+.mb-50 {
+    margin-bottom: 50px;
+}
+.justify {
+    text-align: justify;
+}
+
+/* Estilos da página contato.hmtl */

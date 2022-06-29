@@ -1,0 +1,30 @@
+p{
+    color: #008000;
+    font-size: 34px; 
+    text-align: center;
+}
+
+#p-second{
+    color: crimson;
+    font-weight: bold;
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    justify-content: center;  /*Horizontal*/
+    align-items: center;
+}
+
+.image{
+    margin: 20px;
+    border: 5px solid purple;
+    padding: 20px;
+}
+
+img{
+    width: 500px;
+}
