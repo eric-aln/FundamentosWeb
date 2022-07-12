@@ -1,13 +1,12 @@
 import React, { ChangeEvent, useEffect, useState } from 'react';
 import { Button, Grid, TextField, Typography } from '@material-ui/core';
 import { Box } from "@mui/material";
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import useLocalStorage from 'react-use-localstorage';
 import { login } from '../../services/Service';
 import UserLogin from '../../models/UserLogin';
 
 import './Login.css';
-import { useNavigate } from 'react-router-dom';
 
 function Login() {
 
@@ -37,7 +36,7 @@ function Login() {
         e.preventDefault();
 
         try{
-            await login('/usuarios/logar', userLogin, setToken)
+            await login(`/usuarios/logar`, userLogin, setToken)
             alert('Usuário logado com sucesso');
         }
         catch(error){

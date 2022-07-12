@@ -5,3 +5,5 @@ interface User {
     senha: string;
 }
 export default User;
+
+// Serve para criar a model de cadastro de usuário.
